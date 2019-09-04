@@ -1,0 +1,15 @@
+{
+  "name": "@voldikss/tslint-config",
+  "version": "1.0.0",
+  "description": "voldikss's tslint-config",
+  "main": "tslint.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voldikss/tslint-config.git"
+  },
+  "keywords": [
+    "tslint-config"
+  ],
+  "author": "voldikss <dyzplus@gmail.com>",
+  "license": "MIT"
+}
