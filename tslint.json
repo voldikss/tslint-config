@@ -1,8 +1,9 @@
 {
-  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "extends": ["tslint:recommended"],
   "rules": {
     "semicolon": [true, "never"],
     "ordered-imports": false,
+    "trailing-comma": false,
     "adjacent-overload-signatures": true,
     "array-type": [true, "array"],
     "arrow-parens": [true, "ban-single-arg-parens"],
@@ -25,6 +26,7 @@
     "jsx-no-multiline-js": false,
     "jsx-self-close": false,
     "max-classes-per-file": false,
+    "max-line-length": false,
     "member-access": [true, "check-accessor"],
     "member-ordering": false,
     "new-parens": true,
@@ -39,7 +41,7 @@
     "no-debugger": true,
     "no-duplicate-super": true,
     "no-duplicate-variable": true,
-    "no-empty": true,
+    "no-empty": false,
     "no-empty-interface": false,
     "no-eval": true,
     "no-floating-promises": [true],
@@ -75,11 +77,7 @@
     "object-literal-shorthand": true,
     "object-literal-sort-keys": false,
     "one-variable-per-declaration": [true, "ignore-for-loop"],
-    "only-arrow-functions": [
-      true,
-      "allow-declarations",
-      "allow-named-functions"
-    ],
+    "only-arrow-functions": [true, "allow-declarations", "allow-named-functions"],
     "prefer-const": false,
     "prefer-for-of": true,
     "prefer-template": [false, "allow-single-concat"],

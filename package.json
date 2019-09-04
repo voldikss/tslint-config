@@ -1,6 +1,6 @@
 {
   "name": "@voldikss/tslint-config",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "voldikss's tslint-config",
   "main": "tslint.json",
   "repository": {
