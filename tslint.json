@@ -12,7 +12,7 @@
     "callable-types": false,
     "class-name": true,
     "comment-format": [true, "check-space"],
-    "curly": false,
+    "curly": [true, "ignore-same-line"],
     "deprecation": {
       "severity": "warning"
     },
@@ -21,10 +21,6 @@
     "interface-name": [false],
     "interface-over-type-literal": true,
     "jsdoc-format": true,
-    "jsx-ban-props": [true, ["style", "Move styles into an SCSS stylesheet"]],
-    "jsx-key": false,
-    "jsx-no-multiline-js": false,
-    "jsx-self-close": false,
     "max-classes-per-file": false,
     "max-line-length": false,
     "member-access": [true, "check-accessor"],
